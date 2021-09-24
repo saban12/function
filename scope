@@ -3,6 +3,7 @@ var x = 1;
 function addTwo() {
   var x = x + 2;
 }
+// The variable assignment inside the function addTwo() only has function scope, so its affect is not reflected outside the function.
 
 addTwo();
 x = x + 1;
