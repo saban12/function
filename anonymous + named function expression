@@ -1,0 +1,17 @@
+
+Function Expression: When a function is assigned to a variable. The function can be named, or anonymous. Use the variable name to call a function defined in a function expression.
+
+// anonymous function expression
+var doSomething = function(y) {
+  return y + 1;
+};
+// named function expression
+var doSomething = function addOne(y) {
+  return y + 1;
+};
+// for either of the definitions above, call the function like this:
+doSomething(5);
+Returns: 6
+
+
+// https://classroom.udacity.com/courses/ud803/lessons/a7c5b540-51a6-44dc-b2f2-515c9dd6ca4f/concepts/34e80f30-f3e9-4a54-95f0-76961a0bfda2
