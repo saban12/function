@@ -1,0 +1,42 @@
+
+//  Function expression that assigns the function displayFavorite 
+//  to the variable favoriteMovie
+var favoriteMovie = function A(placeHolder_a) {
+    console.log("My favorite movie is " + placeHolder_a);
+  };
+  
+  // Function declaration that has two parameters: a function for displaying
+  // a message, along with a name of a movie
+  function B(placeHolder_b, placeHolder_c) {
+    placeHolder_b(placeHolder_c);
+  }
+  
+  // Call the movies function, pass in the favoriteMovie function and name of movie
+  B(favoriteMovie, "Finding Nemo");
+  
+  //print - 'My favorite movie is Finding Nemo'
+  
+  
+  
+  
+  
+  
+  
+//  Function expression that assigns the function displayFavorite 
+//  to the variable favoriteMovie
+var favoriteMovie = function A() {
+    console.log("My favorite movie is " +);
+  };
+  
+  // Function declaration that has two parameters: a function for displaying
+  // a message, along with a name of a movie
+  function B(placeHolder_b, placeHolder_c) {
+    placeHolder_b(placeHolder_c);
+  }
+  
+  // Call the movies function, pass in the favoriteMovie function and name of movie
+  B(favoriteMovie, "Finding Nemo");
+  
+  //print 'My favorite movie is '
+  
+  אני מבין שכל הכל ההדפסה מגיעה מהמשתנה "פייבוריט מובי" ואני לא מבין מאיפה "פלייסהולדר אי" יודע לקחת את שם הסרט מפונקציה בי
