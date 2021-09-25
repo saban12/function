@@ -1,0 +1,14 @@
+
+function isPrime(integer){
+    for (var x=2; x < integer; x++) {
+        
+         if(integer % x===0){
+            console.log (integer + " is divisable by " + x);
+            return "not prime";
+        }
+    console.log(integer + " checked against " + x)
+    }
+    return "is prime"
+   
+}
+isPrime(25)
