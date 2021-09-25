@@ -1,0 +1,22 @@
+
+
+// emotions() function definition
+function emotions(myString, myFunc) {
+    console.log("I am " + myString + ", " + myFunc(2));
+}
+
+// Call the emotions() function with two arguments
+// Argument 1 - "happy" string
+// Argument 2 - an inline function expression
+emotions ("happy", function(num) {
+    var sound = ""; // Local variable
+    //Iterate
+    for (var i = 0 ; i < num ; i++) {
+        sound = sound + "ha" ;  
+    }
+    sound = sound +"!"; 
+    return sound; 
+});
+
+
+// https://classroom.udacity.com/courses/ud803/lessons/a7c5b540-51a6-44dc-b2f2-515c9dd6ca4f/concepts/3d40a839-ffaa-4a34-bb10-bec27b23e1c6
